@@ -11,13 +11,15 @@
 					]
 				links : [
 							{ href : "consumer", rel : "/consumer" },
-							{ href : "company", rel : "/company" },
+							{ href : "account", rel : "/account" },
 							{ href : "reports", rel : "/reports" },
 							{ href : "self", rel : "." }
 						]
 			}
-	 2) Write an endpoint for company
-	 		ie.. on browsing company the sever
+	 2) Write an endpoint for account
+	 		ie.. on browsing account the sever
+	 			request has a time stamp in the header and we provide the right version for the given timestamp
+
 	 			{
 	 				since : "2012-10-06 04:00:00",
 					last_modified : "2012-10-06 04:00:00",
